@@ -1,0 +1,21 @@
+{
+    "name": "Github-issue-link-open-in-new-tab",
+    "manifest_version": 3,
+    "version": "0.1",
+    "icons": {
+        "16": "images/icon.jpeg",
+        "48": "images/icon.jpeg",
+        "128": "images/icon.jpeg"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "https://github.com/*/*/issues/*"
+            ],
+            "js":[
+                "jquery-3.6.0.min.js",
+                "content.js"
+            ]
+        }
+    ]
+}
