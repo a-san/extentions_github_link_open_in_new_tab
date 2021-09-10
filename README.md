@@ -1,0 +1,2 @@
+# extentions_github_link_open_in_new_tab
+Githubのissue内のリンクを別タブで開くchrome拡張
